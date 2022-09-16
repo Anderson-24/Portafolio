@@ -16,3 +16,17 @@ function init() {
     }
   }
 }
+
+function linkPosition(e) {
+  debugger;
+  removeClass();
+  e.classList.add("active");
+}
+
+function removeClass() {
+  const listElement = document.getElementsByClassName("nav-link");
+  for (let i = 0; i < listElement.length; i++) {
+    const element = listElement[i];
+    element.classList.remove("active");
+  }
+}

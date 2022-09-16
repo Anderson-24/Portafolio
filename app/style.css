@@ -9,6 +9,19 @@ body {
   background-color: black;
 }
 
+.global{
+  position: relative;
+  
+}
+#imgWht{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 8;
+  margin: 1rem;
+  margin-bottom: 12rem;
+}
+
 .navi {
   background-color: #0dcaf0;
   transform: translateY(-4rem);
